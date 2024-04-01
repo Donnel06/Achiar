@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #f8f9fa; /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px 20px; /* Add some padding */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Make the brand text bolder */
+    font-size: 1.2rem; /* Adjust brand text size */
+  }
+  
+  .nav-link {
+    color: #333; /* Darker text color for links */
+    margin-right: 15px; /* Add some spacing between links */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change link color on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  .btn-outline-primary {
+    color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Primary button border color */
+    margin-left: 10px; /* Add some margin to the buttons */
+  }
+  
+  /* Ensure horizontal layout for all screen sizes */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      display: flex; /* Make the nav items horizontal */
+      flex-direction: row; /* Align them in a row */
+    }
+    .navbar-nav .nav-link {
+      padding-bottom: 0; /* Remove padding for smaller screens */
+    }
+  }
+  
